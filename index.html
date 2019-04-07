@@ -59,9 +59,6 @@ layout: default
         </div>
     </div>
   <ul>
-{% assign sizeOfOrgs = {{ site.data.orgs | size }}%}
-    <a>{{sizeOfOrgs}}</a>
-
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[2] %}
   <li>
