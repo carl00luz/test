@@ -60,7 +60,7 @@ layout: default
     </div>
   <ul>
 {% for org_hash in site.data.orgs %}
-{% assign org = org_hash[{{org_hash | size }}] %}
+{% assign org = org_hash[{{site.data.orgs | size }}] %}
   <li>
     <a href="https://github.com/{{ org.username }}">
       {{ org.name }}
