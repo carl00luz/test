@@ -61,6 +61,8 @@ layout: default
   <ul>
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
+{% assign org2 = org_hash[0] %}
+    <a>{{org2}}</a>
   <li>
     <a href="https://github.com/{{ org.username }}">
       {{ org.name }}
