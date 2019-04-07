@@ -7,11 +7,11 @@
 
 # Site settings
 title: My Portfolio
-email: your-email@domain.com
+email: carl00luz@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Jannik Richter, jannik811@gmail.com
+  Testuser
 baseurl:
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://carl00luz.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
