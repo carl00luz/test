@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-color:  blue
-width:   3
+title:  "This is Test Post!"
+color:  Green
+width:   2
 height:  1
 date:   2019-04-07 11:31:49 +0200
 categories: jekyll update
